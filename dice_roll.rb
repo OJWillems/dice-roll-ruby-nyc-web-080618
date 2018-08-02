@@ -1,4 +1,3 @@
 def roll
-  rolls = [*(1..6)]
-  rand(rolls)
+  rand[*(1..6)]
 end
