@@ -1,3 +1,4 @@
 def roll
-  rand(1..6)
+  rolls = [1..6]
+  rand(rolls)
 end
