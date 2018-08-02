@@ -1,4 +1,4 @@
 def roll
   rolls = [*(1..6)]
-  rand(rolls.length)
+  rolls[rand(rolls.length)]
 end
