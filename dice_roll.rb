@@ -1,3 +1,4 @@
 def roll
-  rolls = 
+  rolls = [*(1..6)]
+  
 end
