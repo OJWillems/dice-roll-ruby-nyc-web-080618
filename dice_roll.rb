@@ -1,3 +1,4 @@
 def roll
-  return roll.rand(1..6)
+  rolls = (1..6)
+  return rolls.rand
 end
