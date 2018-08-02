@@ -12,7 +12,6 @@ describe "#roll" do
 
   it "should return a number less than 7" do
     expect(roll).to be < 7
-    binding.pry
   end
 
   it "should return a random value" do
